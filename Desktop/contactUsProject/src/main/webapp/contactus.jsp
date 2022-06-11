@@ -15,7 +15,7 @@
                 <p class="main-description">Please fill this form in a decent manner</p>
             </div>
             <div class="form-container">
-                <form action="Submit" class="form" method="post">
+                <form action="contactus" class="form" method="post">
                     <div class="inputs-container">
                         <label for="name">Full name <span class="span">*</span></label>
                         <input id="name" type="text"  class="inputs" placeholder="Please enter your Name" name="name">

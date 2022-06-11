@@ -25,11 +25,9 @@
     color: purple;
     font-weight: 600;
     padding: 20px;
-    text-align:center;
 }
 .table{
     width: 80%;
-    margin-left:50px;
 }
 .table-container{
     display: flex;
@@ -54,7 +52,6 @@
     color: green;
     font-weight: 600;
     padding: 20px;
-    text-align:center;
 }
 .btn2{
     align-self: center;

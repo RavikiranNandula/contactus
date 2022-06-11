@@ -20,7 +20,6 @@ public class UserDao {
 			ResultSet rs=st.executeQuery();
 			System.out.println(rs);
 			if(rs.next()) {
-				System.out.println("came");
 				return true;
 			}
 		}

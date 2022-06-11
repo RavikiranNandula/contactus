@@ -25,10 +25,9 @@ public class User extends HttpServlet{
 
 		UserDao dao=new UserDao();
 		HttpSession session=request.getSession();
-		//System.out.println("Login came");
 		if(dao.check(username, pass)) {
 			session.setAttribute("username", username);
-			response.sendRedirect("dashboard.jsp");
+			response.sendRedirect("dashboard");
 		}
 		else {
 			response.sendRedirect("login.jsp"); 
